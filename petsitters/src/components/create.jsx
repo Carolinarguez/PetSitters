@@ -26,7 +26,7 @@ export default class Create extends Component {
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicPhone">
                         <Form.Label>Teléfono</Form.Label>
-                        <Form.Control required type="text" placeholder="Teléfono celular" />
+                        <Form.Control required type="number" placeholder="Teléfono celular" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Contraseña</Form.Label>

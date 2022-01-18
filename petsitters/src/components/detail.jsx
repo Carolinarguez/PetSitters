@@ -67,7 +67,7 @@ export default class Detail extends Component {
                         </tbody>
                     </Table>
                 </p>
-                <Button href="/Schedule"variant="dark" type="submit"> Agendar días
+                <Button href="/Schedule"variant="outline-primary" type="submit"> Agendar días
                 {/* <IndexLinkContainer to="/Schedule"><label>Agendar días</label></IndexLinkContainer> */}
                 </Button>
             </div>

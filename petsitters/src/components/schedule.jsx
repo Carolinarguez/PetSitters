@@ -8,21 +8,21 @@ export default class Schedule extends Component {
                 <Container className="m-t-50" style={{width:'70%'}}>
                 <h5 className="titleSec">Agenda a tu mascota</h5>
                 <Form>
-                    <Form.Group className="mb-3" controlId="formBasicName">
+                    <Form.Group className="mb-3" controlId="formBasicType">
                         <Form.Label>Tipo de mascota</Form.Label>
-                        <Form.Control required type="text" placeholder="Nombre" />
+                        <Form.Control required type="text" placeholder="Tipo de mascota" />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicLastname">
+                    <Form.Group className="mb-3" controlId="formBasicName">
                         <Form.Label>Nombre de la mascota</Form.Label>
-                        <Form.Control required type="text" placeholder="Apellidos" />
+                        <Form.Control required type="text" placeholder="Nombre de tu mascota" />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicAddress">
+                    <Form.Group className="mb-3" controlId="formBasicIdate">
                         <Form.Label>Fecha Inicial</Form.Label>
-                        <Form.Control required type="date" placeholder="Dirección" />
+                        <Form.Control required type="date" />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Group className="mb-3" controlId="formBasicFDate">
                         <Form.Label>Fecha Final</Form.Label>
-                        <Form.Control required type="date" placeholder="Ingrese correo" />
+                        <Form.Control required type="date"/>
                     </Form.Group>
                     
                     <Button variant="outline-primary" type="submit">

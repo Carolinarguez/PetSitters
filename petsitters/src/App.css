@@ -64,6 +64,9 @@ Nav.Item Nav.Link p{
   color: #676A67;
   margin-left: -15px;
 }
+.responsiveTable{
+  overflow-x:auto;
+}
 
 /*
 color gris #676A67
@@ -71,7 +74,7 @@ color verde  #28a745
 color azuk marino #0E3C6D
 color azul primary #007bff*/
 
-/* @media screen and (max-width: 650px)
-.banner{
-    margin: 0 auto!important;
-} */
+@media screen and (max-width: 650px)
+{
+  
+}

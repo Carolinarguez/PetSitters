@@ -14,7 +14,7 @@ export default class List extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="responsiveTable">
                 <Table>
                     <thead> 
                         <tr style={{color: '#676A67'}}> 
