@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import { Form, Button } from 'react-bootstrap'
+import { Form, Button, Container } from 'react-bootstrap'
 
 export default class Schedule extends Component {
     render() {
         return (
-            <div className="m-t-50" style={{width:'70%'}}>
-                AGENDAR A MI MASCOTA
-
+            <div>
+                <Container className="m-t-50" style={{width:'70%'}}>
+                <h5 className="titleSec">Agenda a tu mascota</h5>
                 <Form>
                     <Form.Group className="mb-3" controlId="formBasicName">
                         <Form.Label>Tipo de mascota</Form.Label>
@@ -29,6 +29,7 @@ export default class Schedule extends Component {
                         Agendar mascota
                     </Button>
                 </Form>
+                </Container>
             </div>
         )
     }

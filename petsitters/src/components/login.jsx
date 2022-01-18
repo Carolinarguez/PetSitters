@@ -8,7 +8,7 @@ export default class Login extends Component {
         return (
             <div>
                 <Container className="m-t-50" style={{width:'50%'}}>
-                <h5 style={{marginLeft: '-15px'}}>Inicia sesión</h5>
+                <h5 className="titleSec">Inicia sesión</h5>
                 <Form>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Correo Electrónico</Form.Label>

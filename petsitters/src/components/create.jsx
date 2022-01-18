@@ -6,7 +6,7 @@ export default class Create extends Component {
         return (
             <div>
                 <Container className="m-t-50" style={{width:'70%'}}>
-                <h5 style={{marginLeft: '-15px'}}>Crea tu cuenta</h5>
+                <h5 className="titleSec">Crea tu cuenta</h5>
                 <Form >
                     <Form.Group className="mb-3" controlId="formBasicName">
                         <Form.Label>Nombre</Form.Label>
