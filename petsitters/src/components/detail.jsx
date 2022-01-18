@@ -8,7 +8,7 @@ export default class Detail extends Component {
         super(props)
         this.state = {
             petSitters : petSitters,
-            petSitter : {name:"", photo:"", location:"", rating:""}
+            petSitter : {name:"", photo:"", location:"", rating:"", reviews:[]}
         }
     }
 
@@ -29,24 +29,24 @@ export default class Detail extends Component {
                     <h1>
                         {name} 
                     </h1>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p class="m-b-10 f-w-600">Edad</p>
-                                <h6 class="text-muted f-w-400">{age}</h6>
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <p className="m-b-10 f-w-600">Edad</p>
+                                <h6 className="text-muted f-w-400">{age}</h6>
                         </div>
-                        <div class="col-sm-6">
-                            <p class="m-b-10 f-w-600">Ubicación</p>
-                            <h6 class="text-muted f-w-400">{location}</h6>
+                        <div className="col-sm-6">
+                            <p className="m-b-10 f-w-600">Ubicación</p>
+                            <h6 className="text-muted f-w-400">{location}</h6>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p class="m-b-10 f-w-600">Tipo de mascota</p>
-                                <h6 class="text-muted f-w-400">{type}</h6>
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <p className="m-b-10 f-w-600">Tipo de mascota</p>
+                                <h6 className="text-muted f-w-400">{type}</h6>
                         </div>
-                        <div class="col-sm-6">
-                            <p class="m-b-10 f-w-600">Puntuación</p>
-                            <h6 class="text-muted f-w-400">{rating}</h6>
+                        <div className="col-sm-6">
+                            <p className="m-b-10 f-w-600">Puntuación</p>
+                            <h6 className="text-muted f-w-400">{rating}</h6>
                         </div>
                     </div>
                     </div>
@@ -56,13 +56,13 @@ export default class Detail extends Component {
                     <h4>Reseñas</h4>
                     {reviews} 
                     {/* <Table>
-                    <tbody>
-                        {this.state.petSitters.reviews.map((review, index) => 
-                        <tr key={index}>
-                            <td>{review.comment}</td>
-                        </tr>
-                            )}
-                    </tbody>
+                        <tbody>
+                            {this.state.petSitter.reviews.map((review, index) => 
+                            <tr key={index}>
+                                <td>{review.comment}</td>
+                            </tr>
+                                )}
+                        </tbody>
                     </Table> */}
                 </p>
                 <Button href="/Schedule"variant="dark" type="submit"> Agendar días

@@ -22,7 +22,10 @@ export const petSitters = [
         rating:"5", 
         age:"22", 
         type:"aves", 
-        reviews:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!"
+        reviews:[
+            { comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!", author: "Karen"},
+            { comment: "me regresó a mi perro todo golpeado y traumado", author:"Paulina"}
+        ]
     },
     {
         name:"Mariana Armenta Rodríguez", 
@@ -31,7 +34,10 @@ export const petSitters = [
         rating:"5", 
         age:"27", 
         type:"peces", 
-        reviews:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!"
+        reviews:[
+            { comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!", author: "Karen"},
+            { comment: "me regresó a mi perro todo golpeado y traumado", author:"Paulina"}
+        ]
     },
     {
         name:"Eduardo Bojórquez Meza", 
@@ -40,7 +46,10 @@ export const petSitters = [
         rating:"4.2", 
         age:"24", 
         type:"perros y gatos", 
-        reviews:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!"
+        reviews:[
+            { comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!", author: "Karen"},
+            { comment: "me regresó a mi perro todo golpeado y traumado", author:"Paulina"}
+        ]
     },
     {
         name:"Adilene Alvarez Paez", 
@@ -49,7 +58,10 @@ export const petSitters = [
         rating:"4.5", 
         age:"19", 
         type:"perros", 
-        reviews:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!"
+        reviews:[
+            { comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!", author: "Karen"},
+            { comment: "me regresó a mi perro todo golpeado y traumado", author:"Paulina"}
+        ]
     },
     {
         name:"Juan Andrés Abitia", 
@@ -58,5 +70,8 @@ export const petSitters = [
         rating:"4.9", 
         age:"25", 
         type:"peces", 
-        reviews:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!"
+        reviews:[
+            { comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed sequi quos nulla recusandae exercitationem culpa iure, accusantium nostrum cum reiciendis, voluptatum accusamus eaque nesciunt minima temporibus vero id nihil!", author: "Karen"},
+            { comment: "me regresó a mi perro todo golpeado y traumado", author:"Paulina"}
+        ]
     }]
