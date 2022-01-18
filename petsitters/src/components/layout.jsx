@@ -7,11 +7,11 @@ export default class Layout extends Component {
         return (
             <div>
                 <header className='sticky-top'>
-                    <Navbar bg="primary" variant='dark'>
+                    <Navbar bg="success" >
                         <Nav className='mr-auto'>
-                            <NavItem><IndexLinkContainer to="/"><Nav.Link><p>Home</p></Nav.Link></IndexLinkContainer></NavItem>
-                            <NavItem><IndexLinkContainer to="/List"><Nav.Link><p>PetSitters</p></Nav.Link></IndexLinkContainer></NavItem>
-                        
+                            <NavItem><IndexLinkContainer className="text-light" to="/"><Nav.Link><p>Home</p></Nav.Link></IndexLinkContainer></NavItem>
+                            <NavItem><IndexLinkContainer className="text-light" to="/Login"><Nav.Link><p>Login</p></Nav.Link></IndexLinkContainer></NavItem>
+                            <NavItem><IndexLinkContainer className="text-light" to="/List"><Nav.Link><p>Encontrar cuidador</p></Nav.Link></IndexLinkContainer></NavItem>
                         </Nav>
                     </Navbar>
                 </header>

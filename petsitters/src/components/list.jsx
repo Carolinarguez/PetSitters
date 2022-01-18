@@ -20,9 +20,9 @@ export default class List extends Component {
                         <tr>
                             <th>Foto</th>
                             <th>Nombre</th>
-                            <th>Ubicacion</th>
-                            <th>Rating</th>
-                            <th>Detail</th>
+                            <th>Ubicación</th>
+                            <th>Puntuación</th>
+                            <th>Detalles</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -32,7 +32,7 @@ export default class List extends Component {
                             <td>{petsitter.name}</td>
                             <td>{petsitter.location}</td>
                             <td>{petsitter.rating}</td>
-                            <td><LinkContainer to={'/Detail/' + index}><Button>Detail</Button></LinkContainer></td>
+                            <td><LinkContainer to={'/Detail/' + index}><Button variant="light">Ver más</Button></LinkContainer></td>
                         </tr>
                              )}
                     </tbody>
