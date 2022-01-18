@@ -17,7 +17,7 @@ export default class List extends Component {
             <div>
                 <Table>
                     <thead> 
-                        <tr style={{color: '#82603d'}}> 
+                        <tr style={{color: '#676A67'}}> 
                             <th>Foto</th>
                             <th>Nombre</th>
                             <th>Ubicación</th>

@@ -61,10 +61,15 @@ Nav.Item Nav.Link p{
   max-height: 300px;
 }
 .titleSec{
-  color: #dd7b18;
-  /* color: #c9b09c; */
+  color: #676A67;
   margin-left: -15px;
 }
+
+/*
+color gris #676A67
+color verde  #28a745 
+color azuk marino #0E3C6D
+color azul primary #007bff*/
 
 /* @media screen and (max-width: 650px)
 .banner{

@@ -26,7 +26,7 @@ export default class Detail extends Component {
                 <div>
                     <div style={{width: '20%'},{display: 'inline-block'}}><Image style={{width: '50%'}}src={photo} thumbnail></Image> </div>
                     <div style={{width: '80%'}, {display: 'inline-block'}}>
-                    <h1 style={{color: '#82603d'}}>
+                    <h1 style={{color: '#15852E'}}>
                         {name} 
                     </h1>
                     <div className="row">
@@ -53,13 +53,13 @@ export default class Detail extends Component {
                 </div>
                 <br/>
                 <p>
-                    <h4 style={{color: '#dd7b18'}}>Reseñas</h4>
+                    <h4 style={{color: '#15852E'}}>Reseñas</h4>
                     <Table>
                         <tbody>
                             {this.state.petSitter.reviews.map((review, index) => 
                             <tr key={index}>
                                 <td>
-                                    <p style={{color: '#c9b09c'}} className="m-b-10 f-w-600">{review.author}</p>
+                                    <p style={{color: '#676A67'}} className="m-b-10 f-w-600">{review.author}</p>
                                     {review.comment}
                                 </td>
                             </tr>
