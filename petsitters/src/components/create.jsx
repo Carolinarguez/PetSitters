@@ -4,7 +4,7 @@ import { Button, Form, Container } from 'react-bootstrap'
 export default class Create extends Component {
     render() {
         return (
-            <div>
+            <div className="responsiveBody">
                 <Container className="m-t-50" style={{width:'70%'}}>
                 <h5 className="titleSec">Crea tu cuenta</h5>
                 <Form >

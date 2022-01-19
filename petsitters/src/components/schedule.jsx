@@ -4,7 +4,7 @@ import { Form, Button, Container } from 'react-bootstrap'
 export default class Schedule extends Component {
     render() {
         return (
-            <div>
+            <div className="responsiveBody">
                 <Container className="m-t-50" style={{width:'70%'}}>
                 <h5 className="titleSec">Agenda a tu mascota</h5>
                 <Form>

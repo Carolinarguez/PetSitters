@@ -71,10 +71,29 @@ Nav.Item Nav.Link p{
 /*
 color gris #676A67
 color verde  #28a745 
-color azuk marino #0E3C6D
 color azul primary #007bff*/
 
 @media screen and (max-width: 650px)
-{
-  
+{ 
+  .responsiveBody .m-t-50{
+    width: 100%!important;
+  }
+  .responsiveBody h4{ 
+   font-size: 1rem;
+  }
+  .responsiveBody p{ 
+    font-size: 0.75rem;
+  }
+  .responsiveBody h1{ 
+    font-size: 1.5rem;
+  }
+  .responsiveBody .responsiveDiv{
+    width: 100%;
+    display: '';
+  }
+  .responsiveDiv img{
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
 }

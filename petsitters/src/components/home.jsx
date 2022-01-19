@@ -12,7 +12,7 @@ export default class Home extends Component {
                     <Image className="img-fluid" src="https://petloversites.com/wp-content/uploads/2020/07/bannernosotros.jpg"></Image>
                 </div>
                 <br/>
-                <div>
+                <div className="responsiveBody">
                     <h4 style={{color: '#15852E'}}>Acerca de Nosotros</h4>
                     <p style={{textAlign: 'justify'}}><bold>PetSitters</bold> es una plataforma que busca ayudar a personas con mascotas a encontrar un buen candidato 
                     para cuidar de su mascota cuando lo necesite. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam ducimus ab consectetur iste 

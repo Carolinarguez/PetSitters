@@ -23,9 +23,9 @@ export default class Detail extends Component {
         const {name, photo, location, rating, age, type, reviews} = this.state.petSitter
         return (
             <div>
-                <div>
-                    <div style={{width: '20%'},{display: 'inline-block'}}><Image style={{width: '50%'}}src={photo} thumbnail></Image> </div>
-                    <div style={{width: '80%'}, {display: 'inline-block'}}>
+                <div className="responsiveBody">
+                    <div className="responsiveDiv" style={{width: '20%'},{display: 'inline-block'}}><Image style={{width: '50%'}}src={photo} thumbnail></Image> </div>
+                    <div className="responsiveDiv" style={{width: '80%'}, {display: 'inline-block'}}>
                     <h1 style={{color: '#15852E'}}>
                         {name} 
                     </h1>
@@ -58,7 +58,7 @@ export default class Detail extends Component {
                         <tbody>
                             {this.state.petSitter.reviews.map((review, index) => 
                             <tr key={index}>
-                                <td>
+                                <td style={{textAlign: 'justify'}}>
                                     <p style={{color: '#676A67'}} className="m-b-10 f-w-600">{review.author}</p>
                                     {review.comment}
                                 </td>
@@ -68,7 +68,6 @@ export default class Detail extends Component {
                     </Table>
                 </p>
                 <Button href="/Schedule"variant="outline-primary" type="submit"> Agendar días
-                {/* <IndexLinkContainer to="/Schedule"><label>Agendar días</label></IndexLinkContainer> */}
                 </Button>
             </div>
         )
