@@ -30,7 +30,7 @@ export default class Login extends Component {
             <div className="responsiveBody">
                 <Container className="m-t-50" style={{width:'50%'}}>
                 <h5 className="titleSec">Inicia sesión</h5>
-                <Form>
+                <Form onSubmit={this.onSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Correo Electrónico</Form.Label>
                         <Form.Control required type="email" placeholder="Ingrese correo" ref={(c) => this.email = c} name="email" />
@@ -41,7 +41,7 @@ export default class Login extends Component {
                         <Form.Control required type="password" placeholder="Contraseña" ref={(c) => this.password = c} name="password"/>
                     </Form.Group>
                     
-                    <Button variant="outline-primary" type="submit" onClick={this.onSubmit}>
+                    <Button variant="outline-primary" type="submit">
                         Entrar
                     </Button>
                     <br/>
